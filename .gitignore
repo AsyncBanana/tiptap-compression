@@ -1,0 +1,4 @@
+node_modules
+dist
+flatc
+flatc.exe
