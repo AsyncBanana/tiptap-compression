@@ -1,6 +1,6 @@
 {
 	"name": "tiptap-compression",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Simple tiptap editor json compression for storage and networking",
 	"main": "dist/index.cjs",
 	"module": "dist/index.mjs",
