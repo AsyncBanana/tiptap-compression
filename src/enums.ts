@@ -37,3 +37,9 @@ export const _defaultMarkNames = {
 	textstyle: 8,
 	underline: 9
 } as const;
+export const _propertyNames = {
+	type: "a",
+	text: "b",
+	content: "c",
+	marks: "d"
+} as const;

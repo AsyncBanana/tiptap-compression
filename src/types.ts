@@ -1,18 +1,26 @@
 export interface Options {
 	optimize?: true;
+	deepCopy?: true;
+	zstd?: true;
 }
 export const defaultOptions: Options = {
-	optimize: true
+	optimize: true,
+	zstd: true
 };
 export interface Mark {
-	[key: string]: any;
 	type: string | number;
 }
 export interface Node {
-	[key: string]: any;
-	type: string | number;
-	marks: [Mark];
+	type: string;
+	marks?: [Mark];
 	text?: string;
 	content?: [Node];
-	attrs: Record<string, unknown>;
+	attrs?: Record<string, unknown>;
+}
+export interface OptNode {
+	a: number; // type
+	b?: string; // text
+	c?: any; // content
+	d?: [Mark]; // marks
+	e?: Record<string, unknown>; // attrs
 }
