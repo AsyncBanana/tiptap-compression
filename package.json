@@ -31,8 +31,8 @@
 	},
 	"homepage": "https://github.com/AsyncBanana/tiptap-compression#readme",
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.29.0",
-		"@typescript-eslint/parser": "^4.29.0",
+		"@typescript-eslint/eslint-plugin": "^4.29.1",
+		"@typescript-eslint/parser": "^4.29.1",
 		"benny": "^3.6.15",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -46,7 +46,7 @@
 	"sideEffects": false,
 	"dependencies": {
 		"@bokuweb/zstd-wasm": "^0.0.14",
-		"msgpackr": "^1.3.10"
+		"msgpackr": "^1.4.2"
 	},
 	"mangle": {
 		"regex": "^_"
